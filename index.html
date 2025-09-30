@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400?text=Delicious+Food');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .menu {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .menu h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .food-item {
+            background: white;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .food-item h3 {
+            margin: 0;
+        }
+        .food-item p {
+            margin: 0.5rem 0;
+        }
+        .price {
+            font-weight: bold;
+            color: #ff6347;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Food Delivery Service</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Welcome to Our Food Delivery!</h2>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="food-item">
+            <div>
+                <h3>Margherita Pizza</h3>
+                <p>Classic pizza with tomato sauce, mozzarella, and basil.</p>
+            </div>
+            <span class="price">$12.99</span>
+        </div>
+        <div class="food-item">
+            <div>
+                <h3>Chicken Burger</h3>
+                <p>Juicy grilled chicken burger with lettuce, tomato, and mayo.</p>
+            </div>
+            <span class="price">$9.99</span>
+        </div>
+        <div class="food-item">
+            <div>
+                <h3>Caesar Salad</h3>
+                <p>Fresh romaine lettuce with Caesar dressing, croutons, and parmesan.</p>
+            </div>
+            <span class="price">$7.99</span>
+        </div>
+        <div class="food-item">
+            <div>
+                <h3>Pasta Alfredo</h3>
+                <p>Creamy fettuccine Alfredo with grilled chicken.</p>
+            </div>
+            <span class="price">$11.99</span>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2023 Food Delivery Service. All rights reserved.</p>
+        <p>Contact us at: info@fooddelivery.com | Phone: (123) 456-7890</p>
+    </footer>
+</body>
+</html>
+
